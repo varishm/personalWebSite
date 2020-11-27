@@ -7,7 +7,7 @@ function main(){
 function renderAwards() {
     loadJSON(function(response) {
         // Parsing JSON string into object
-          var actual_JSON = JSON.parse(response);git 
+          var actual_JSON = JSON.parse(response);
           console.log(actual_JSON)
        });
       
