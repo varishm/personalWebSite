@@ -7,20 +7,15 @@ function main(){
 function renderAwards() {
     loadJSON('assets/info/awards.json', function(response) {
         // Parsing JSON string into object
-          var actual_JSON = JSON.parse(response);
-          console.log(actual_JSON)
+          var awards = JSON.parse(response);
+          for (idx = 0; idx < awards.length; idx++){
+            var award = awards[idx];
+            var title = award["award"]
+            var org = award["org"]
+            var line = award["award"] + ", " + award["org"] + ", " + award["year"]
+            $("#awards").append("<li>" + line + "</li>")
+        }
        });
-
-    //var awards = JSON.parse(somestr)
-    //console.log(awards)
-
-    //for (idx = 0; idx < awards.length; idx++){
-    //    var award = awards[idx];
-    //    var title = award["award"]
-    //    var org = award["org"]
-    //    var line = award["award"] + ", " + award["org"] + ", " + award["year"]
-    //    $("#awards").append("<li>" + line + "</li>")
-    //}
 }
 
 
