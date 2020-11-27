@@ -5,14 +5,14 @@ function main(){
 }
 
 function renderAwards() {
-    loadJSON(function(response) {
+    loadJSON('assets/info/awards.json', function(response) {
         // Parsing JSON string into object
           var actual_JSON = JSON.parse(response);
           console.log(actual_JSON)
        });
 
-    var awards = JSON.parse(somestr)
-    console.log(awards)
+    //var awards = JSON.parse(somestr)
+    //console.log(awards)
 
     //for (idx = 0; idx < awards.length; idx++){
     //    var award = awards[idx];
