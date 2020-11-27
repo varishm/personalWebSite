@@ -10,18 +10,27 @@ function renderAwards() {
           var actual_JSON = JSON.parse(response);
           console.log(actual_JSON)
        });
-      
+
+    var awards = JSON.parse(somestr)
+    console.log(awards)
+
+    //for (idx = 0; idx < awards.length; idx++){
+    //    var award = awards[idx];
+    //    var title = award["award"]
+    //    var org = award["org"]
+    //    var line = award["award"] + ", " + award["org"] + ", " + award["year"]
+    //    $("#awards").append("<li>" + line + "</li>")
+    //}
 }
 
 
-function loadJSON(callback) {   
+function loadJSON(filePath, callback) {   
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'assets/info/awards.json', true); // Replace 'appDataServices' with the path to your file
+    xobj.open('GET', filePath, true); //assets/info/awards.json
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
-            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
             callback(xobj.responseText);
           }
     };
