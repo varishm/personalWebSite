@@ -13,5 +13,40 @@
       "award": "Above & Beyond Bronze Award", 
       "org": "GE Research", 
       "year": "2015"
+    },
+    {
+        "award": "Int. Semantic Web Conf. Travel Award", 
+        "org": "SWSA, NSF", 
+        "year": "2014, 2013, 2011, 2010"
+    },
+    {
+        "award": "Best PhD Research Award", 
+        "org": "UMBC CSEE Annual Research Review", 
+        "year": "2013"
+    },
+    {
+        "award": "First Place, Poster Presentation Comptetion", 
+        "org": "UMBC CSEE Annual Research Review", 
+        "year": "2012"
+    },
+    {
+        "award": "Third Place, Poster Presentation Comptetion", 
+        "org": "UMBC CSEE Annual Research Review", 
+        "year": "2011"
+    },
+    {
+        "award": "Outstanding Oral Presentation Award", 
+        "org": "UMBC Graduate Research Conference", 
+        "year": "2011, 2010"
+    },
+    {
+        "award": "Spot Award, Test Automation Prototype", 
+        "org": "Ness Technologies", 
+        "year": "2008"
+    },
+    {
+        "award": "The Interview Scheduler Project success as College Trainees", 
+        "org": "Mastek", 
+        "year": "2007"
     }
   ]
