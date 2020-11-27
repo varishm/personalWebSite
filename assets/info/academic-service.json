@@ -1,0 +1,81 @@
+{
+    "misc" :[
+        {
+            "venue": "President, UMBC ACM student chapter",
+            "year": "2012 - 2013"
+        },
+        {
+            "venue": "Co-organizer, Industrial Knowledge Graphs Workshop, ACM Web Science Conf.",
+            "year": "2017",
+            "link": "https://industrial-knowledge-graphs.github.io/2017/"
+        }
+    ],
+    "program_committee": [
+        {
+            "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+            "year": "2019"
+        },
+        {
+            "venue": "International Joint Conf. on Artificial Intelligence (IJCAI)",
+            "year": "2019"
+        },
+        {
+            "venue": "Poster & Demo track, Int. Semantic Web Conf. (ISWC)",
+            "year": "2016 - 2019"
+        },
+        {
+            "venue": "Poster & Demo track, Extended Semantic Web Conf. (ESWC)",
+            "year": "2017 - 2019"
+        },
+        {
+            "venue": "Int. Workshop on Natural Language Interfaces for Web of Data (NLIWoD) @ ISWC",
+            "year": "2018"
+        },
+        {
+            "venue": "Workshop on Knowledge Base Construction, Reasoning and Mining",
+            "year": "2018"
+        },
+        {
+            "venue": "In-Use track, Int. Semantic Web Conf. (ISWC)",
+            "year": "2017"
+        },
+        {
+            "venue": "Int. Workshop on Linked Data for Information Extraction @ ISWC",
+            "year": "2014 - 2017"
+        },
+        {
+            "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
+            "year": "2014"
+        },
+        {
+            "venue": "Mid-Atlantic Student Colloquium on Speech, Language and Learning",
+            "year": "2012"
+        },
+        {
+            "venue": "Int. Workshop on Knowledge Discovery and Data Mining Meets Linked Open Data @ ESWC",
+            "year": "2012"
+        }
+    ],
+    "reviewer": [
+        {
+            "venue": "External reviewer ACM Conf. for Human-Computer Interaction (CHI)",
+            "year": "2016"
+        },
+        {
+            "venue": "Sub reviewer AAAI Conference on Artificial Intelligence (AAAI)",
+            "year": "2016"
+        },
+        {
+            "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE)",
+            "year": "2013"
+        },
+        {
+            "venue": "VLDB journal's special issue on Structured, Social and Crowd-sourced Data (VLDBJ)",
+            "year": "2012"
+        },
+        {
+            "venue": "IEEE Intelligent Systems special issue on Linked Open Government Data",
+            "year": "2011"
+        }
+    ]
+}
