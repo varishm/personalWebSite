@@ -12,6 +12,10 @@
     ],
     "program_committee": [
         {
+            "venue": "ACM IKDD CODS and COMAD (CODS-COMAD)",
+            "year": "2022"
+        },
+        {
             "venue": "AAAI Conf. on Artificial Intelligence (AAAI)",
             "year": "2014, 2021"
         },
